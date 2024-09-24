@@ -1,0 +1,72 @@
+/* Estilos para WP Health Checker */
+
+.wp-health-checker-wrap {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wp-health-checker-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wp-health-checker-header h1 {
+  color: #23282d;
+  font-size: 24px;
+}
+
+.wp-health-checker-section {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+.wp-health-checker-section h2 {
+  color: #23282d;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.wp-health-checker-item {
+  margin-bottom: 10px;
+}
+
+.wp-health-checker-item-label {
+  font-weight: bold;
+  display: inline-block;
+  width: 200px;
+}
+
+.wp-health-checker-status-good {
+  color: #46b450;
+}
+
+.wp-health-checker-status-warning {
+  color: #ffb900;
+}
+
+.wp-health-checker-status-bad {
+  color: #dc3232;
+}
+
+.wp-health-checker-settings {
+  margin-top: 30px;
+}
+
+.wp-health-checker-settings h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.wp-health-checker-settings input[type="email"] {
+  width: 100%;
+  max-width: 300px;
+}
+
+.wp-health-checker-settings button {
+  margin-top: 10px;
+}
